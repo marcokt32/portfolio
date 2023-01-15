@@ -1,0 +1,21 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 0) {
+    .projetos {
+        padding: 1rem;
+        width: calc(100% - 3rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projetos {
+        padding: 1.5rem 2rem;
+        width: calc(100% - 4rem);
+        height: calc(100vh - 4rem);
+    }
+}

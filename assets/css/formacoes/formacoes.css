@@ -1,0 +1,21 @@
+.formacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:ghostwhite;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes {
+        padding: 1rem;
+        width: calc(100% - 2rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacoes {
+        padding: 2rem 5rem;
+        width: calc(100% - 10rem);
+    }
+}

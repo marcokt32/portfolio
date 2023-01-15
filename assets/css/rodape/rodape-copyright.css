@@ -1,0 +1,15 @@
+.rodape__copyright {
+    font-size: .9rem;
+}
+
+@media screen and (min-width: 0) {
+    .rodape__copyright {
+        font-weight: 400; 
+    }
+}
+
+@media screen and (min-width: 395) {
+    .rodape__copyright {
+        font-weight: bold;
+    }
+}

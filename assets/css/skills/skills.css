@@ -1,0 +1,21 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 0) {
+    .skills {
+        padding: 1.5rem;
+        width: calc(100% - 3rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        padding: 1.5rem 5rem;
+        width: calc(100% - 10rem);
+        height: calc(50vh - 6rem);
+    }
+}
