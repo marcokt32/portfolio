@@ -1,6 +1,7 @@
 .banner__foto {
     background: url(../../img/Foto.png) no-repeat center / cover;
     border-radius: 100%;
+    background-color:darkgrey ;
 }
 
 @media screen and (min-width: 395px) {
